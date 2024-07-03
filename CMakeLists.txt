@@ -10,8 +10,8 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/StringImageInputBoolResponse.srv"
-  "srv/StringImageInputStringResponse.srv"
+  "srv/BoolResponse.srv"
+  "srv/StringResponse.srv"
   DEPENDENCIES
   sensor_msgs
 )
