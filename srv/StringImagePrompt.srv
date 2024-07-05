@@ -1,0 +1,12 @@
+string prompt
+# (Optional) input image
+sensor_msgs/Image image
+---
+# Full string response
+string string_response
+
+# (Optional) Holds a parsed yes/no response
+bool bool_response
+
+# False indicates an error
+bool is_valid
