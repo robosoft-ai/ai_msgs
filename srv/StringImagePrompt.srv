@@ -1,4 +1,5 @@
 string prompt
+
 # (Optional) input image
 sensor_msgs/Image image
 ---
