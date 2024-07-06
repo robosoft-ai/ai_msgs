@@ -10,8 +10,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/Prompt.srv"
-  "srv/PromptWithImage.srv"
+  "srv/StringImagePrompt.srv"
   DEPENDENCIES
   sensor_msgs
 )
